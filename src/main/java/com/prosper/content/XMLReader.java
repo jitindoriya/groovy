@@ -58,7 +58,7 @@ public class XMLReader {
 			}
 		}
 		
-		
+		System.out.println(list);
 		return list;
 	}
 	
@@ -98,6 +98,7 @@ public class XMLReader {
 				rNum++;
 			}
 		}
+		
 		return testData;
 		
 	}
